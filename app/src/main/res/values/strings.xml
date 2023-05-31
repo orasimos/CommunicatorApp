@@ -8,4 +8,6 @@
     <string name="email_hint">Email address</string>
     <string name="sms">SMS</string>
     <string name="sms_hint">SMS number</string>
+    <string name="sms_layout_title">Sending SMS Message</string>
+    <string name="sms_text">Write your message...</string>
 </resources>
