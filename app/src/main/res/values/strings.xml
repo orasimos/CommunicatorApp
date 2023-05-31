@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IntentCommunicatorApp</string>
+    <string name="title">Communicator App</string>
+    <string name="choice">Choose action:</string>
+    <string name="place_call">Call</string>
+    <string name="phone_hint">Phone number</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Email address</string>
+    <string name="sms">SMS</string>
+    <string name="sms_hint">SMS number</string>
+</resources>
