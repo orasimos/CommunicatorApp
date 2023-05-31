@@ -6,8 +6,12 @@
     <string name="phone_hint">Phone number</string>
     <string name="email">Email</string>
     <string name="email_hint">Email address</string>
+    <string name="email_layout_title">Sending Email</string>
+    <string name="email_subject_hint">Subject…</string>
+    <string name="email_text_hint">Write your message…</string>
     <string name="sms">SMS</string>
     <string name="sms_hint">SMS number</string>
     <string name="sms_layout_title">Sending SMS Message</string>
-    <string name="sms_text">Write your message...</string>
+    <string name="text_input_hint">Write your message…</string>
+    <string name="send">Send</string>
 </resources>

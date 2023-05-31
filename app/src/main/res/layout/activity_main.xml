@@ -53,7 +53,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/phoneNumberTextInput"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"/>
+                android:layout_height="50dp"
+                android:inputType="phone"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,7 +68,8 @@
             android:background="@drawable/button_call"
             android:stateListAnimator="@null"
             android:layout_weight="1"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="10dp"
+            android:enabled="false"/>
 
     </LinearLayout>
 
@@ -92,9 +94,10 @@
             app:endIconMode="clear_text">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/smsTextInput"
+                android:id="@+id/smsNumberTextInput"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"/>
+                android:layout_height="50dp"
+                android:inputType="phone"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -108,7 +111,8 @@
             android:background="@drawable/button_sms"
             android:stateListAnimator="@null"
             android:layout_weight="1"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="10dp"
+            android:enabled="false"/>
 
     </LinearLayout>
 
@@ -133,9 +137,10 @@
             app:endIconMode="clear_text">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/emailTextInput"
+                android:id="@+id/emailAddressTextInput"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"/>
+                android:layout_height="50dp"
+                android:inputType="textEmailAddress"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -146,11 +151,11 @@
             android:text="@string/email"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:textColor="@color/white"
             android:background="@drawable/button_email"
             android:stateListAnimator="@null"
             android:layout_weight="1"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="10dp"
+            android:enabled="false"/>
 
     </LinearLayout>
 
